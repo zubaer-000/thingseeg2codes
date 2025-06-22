@@ -34,6 +34,7 @@ def epoching(args, data_part, seed):
 	### Loop across data collection sessions ###
 	epoched_data = []
 	img_conditions = []
+	print("nomro")
 	for s in range(args.n_ses):
 
 		### Load the EEG data and convert it to MNE raw format ###
